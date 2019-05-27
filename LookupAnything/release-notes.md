@@ -3,7 +3,7 @@
 # Release notes
 ## Upcoming release
 * Updated for Stardew Valley 1.4, including new content.
-* Added recipes to machine lookups.
+* Added recipes to machine lookups (but not custom machines currently).
 * Added 'kissed today' to spouse lookups.
 * Added farm type description to player lookup.
 * Improved `config.json` keybind parsing.
