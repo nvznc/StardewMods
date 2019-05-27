@@ -3,6 +3,7 @@
 # Release notes
 ## Upcoming release
 * Updated for Stardew Valley 1.4, including new content.
+* Added recipes to machine lookups.
 * Added 'kissed today' to spouse lookups.
 * Added farm type description to player lookup.
 * Improved `config.json` keybind parsing.
@@ -10,6 +11,7 @@
 * Fixed planted coffee beans showing seed fields instead of crop fields.
 * Fixed seed growth time predictions not accounting for Agriculturist profession.
 * Fixed "you made -1 of these" field for some crafted items.
+* Fixed some missing/incorrect recipes.
 
 ## 1.21.2
 Released 06 April 2019.

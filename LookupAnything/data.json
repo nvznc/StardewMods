@@ -161,7 +161,8 @@ You shouldn't change this file unless you know what you're doing.
             "Ingredients": {
                 "284": 1 // beet
             },
-            "Output": 245 // sugar
+            "Output": 245, // sugar
+            "MaxOutput": 3
         }
     ],
 
@@ -228,6 +229,15 @@ You shouldn't change this file unless you know what you're doing.
                 "386": 5 // gold ore
             },
             "Output": 337 // iridium bar
+        },
+        {
+            "MachineID": 13,
+            "Ingredients": {
+                "382": 1, // coal
+                "82": 1 // fire quartz
+            },
+            "Output": 338, // refined quartz
+            "MaxOutput": 3
         },
         {
             "MachineID": 13,
@@ -305,11 +315,11 @@ You shouldn't change this file unless you know what you're doing.
             "Output": 306 // mayonnaise
         },
         {
-          "MachineID": 24,
-          "Ingredients": {
-            "107": 1 // dinosaur egg
-          },
-          "Output": 807 // dinosaur mayonnaise
+            "MachineID": 24,
+            "Ingredients": {
+                "107": 1 // dinosaur egg
+            },
+            "Output": 807 // dinosaur mayonnaise
         },
         {
             "MachineID": 24,
@@ -364,40 +374,88 @@ You shouldn't change this file unless you know what you're doing.
         {
             "MachineID": 20,
             "Ingredients": {
-                "168": 1, // trash
-                "169": 1 // or driftwood
+                "168": 1 // trash
             },
-            "Output": 382 // coal
+            "Output": 382, // coal
+            "MinOutput": 1,
+            "MaxOutput": 3,
+            "OutputChance": 30
         },
         {
             "MachineID": 20,
             "Ingredients": {
                 "168": 1 // trash
             },
-            "Output": 380 // iron ore
-        },
-        {
-            "MachineID": 20,
-            "Ingredients": {
-                "170": 1, // broken glasses
-                "171": 1, // or broken CD
-                "172": 1 // or soggy newspaper
-            },
-            "Output": 338 // refined quartz
+            "Output": 380, // iron ore
+            "MinOutput": 1,
+            "MaxOutput": 3,
+            "OutputChance": 21
         },
         {
             "MachineID": 20,
             "Ingredients": {
                 "168": 1 // trash
             },
-            "Output": 390 // stone
+            "Output": 390, // stone
+            "MinOutput": 1,
+            "MaxOutput": 3,
+            "OutputChance": 49
+        },
+
+        {
+            "MachineID": 20,
+            "Ingredients": {
+                "169": 1 // driftwood
+            },
+            "Output": 382, // coal
+            "MinOutput": 1,
+            "MaxOutput": 3,
+            "OutputChance": 25
         },
         {
             "MachineID": 20,
             "Ingredients": {
                 "169": 1 // driftwood
             },
-            "Output": 388 // wood
+            "Output": 388, // wood
+            "MinOutput": 1,
+            "MaxOutput": 3,
+            "OutputChance": 75
+        },
+
+        {
+            "MachineID": 20,
+            "Ingredients": {
+                "170": 1 // broken glasses
+            },
+            "Output": 338 // refined quartz
+        },
+
+        {
+            "MachineID": 20,
+            "Ingredients": {
+                "171": 1 // broken CD
+            },
+            "Output": 338 // refined quartz
+        },
+
+        {
+            "MachineID": 20,
+            "Ingredients": {
+                "172": 1 // soggy newspaper
+            },
+            "Output": 428, // cloth
+            "OutputChance": 10
+        },
+
+        {
+            "MachineID": 20,
+            "Ingredients": {
+                "172": 1 // soggy newspaper
+            },
+            "Output": 93, // torch
+            "MinOutput": 3,
+            "OutputChance": 90
         },
 
         /* slime egg-press */
@@ -406,28 +464,32 @@ You shouldn't change this file unless you know what you're doing.
             "Ingredients": {
                 "766": 100 // slime
             },
-            "Output": 680 // green slime egg
+            "Output": 680, // green slime egg
+            "OutputChance": 64
         },
         {
             "MachineID": 158,
             "Ingredients": {
                 "766": 100 // slime
             },
-            "Output": 439 // purple slime egg
+            "Output": 439, // purple slime egg
+            "OutputChance": 5
         },
         {
             "MachineID": 158,
             "Ingredients": {
                 "766": 100 // slime
             },
-            "Output": 437 // red slime egg
+            "Output": 437, // red slime egg
+            "OutputChance": 10
         },
         {
             "MachineID": 158,
             "Ingredients": {
                 "766": 100 // slime
             },
-            "Output": 413 // blue slime egg
+            "Output": 413, // blue slime egg
+            "OutputChance": 21
         }
     ],
 
