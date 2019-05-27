@@ -183,16 +183,28 @@ You shouldn't change this file unless you know what you're doing.
         {
             "MachineID": 16,
             "Ingredients": {
-                "184": 1, // milk
-                "186": 1 // or large milk
+                "184": 1 // milk
             },
             "Output": 424 // cheese
         },
         {
             "MachineID": 16,
             "Ingredients": {
-                "436": 1, // goat milk
-                "438": 1 // or goat milk
+                "186": 1 // large milk
+            },
+            "Output": 424 // cheese
+        },
+        {
+            "MachineID": 16,
+            "Ingredients": {
+                "436": 1 // goat milk
+            },
+            "Output": 426 // goat cheese
+        },
+        {
+            "MachineID": 16,
+            "Ingredients": {
+                "438": 1 // large goat milk
             },
             "Output": 426 // goat cheese
         },
@@ -347,9 +359,21 @@ You shouldn't change this file unless you know what you're doing.
         {
             "MachineID": 19,
             "Ingredients": {
-                "270": 1, // corn
-                "421": 1, // or sunflower
-                "431": 1 // or sunflower seeds
+                "270": 1 // corn
+            },
+            "Output": 247 // oil
+        },
+        {
+            "MachineID": 19,
+            "Ingredients": {
+                "421": 1 // sunflower
+            },
+            "Output": 247 // oil
+        },
+        {
+            "MachineID": 19,
+            "Ingredients": {
+                "431": 1 // sunflower seeds
             },
             "Output": 247 // oil
         },
