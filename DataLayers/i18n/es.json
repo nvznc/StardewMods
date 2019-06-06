@@ -8,10 +8,10 @@
 
   // buildable
   // TODO
-  "buildable.name": "Buildable",
-  "buildable.buildable": "Can Build here",
-  "buildable.occupied": "Occupied",
-  "buildable.not-buildable": "Can't Build Here",
+  "buildable.name": "Construible",
+  "buildable.buildable": "Puede Construirse Aquí",
+  "buildable.occupied": "Ocupado",
+  "buildable.not-buildable": "No Puede Construirse Aquí",
 
   // coverage: bee houses
   "bee-houses.name": "Cobertura: Colmenas",
@@ -51,15 +51,15 @@
 
   // machine processing
   // TODO
-  "machines.name": "Machine Processing",
-  "machines.empty": "Empty",
-  "machines.processing": "Processing",
-  "machines.finished": "Finished",
+  "machines.name": "Máquina Procesadora",
+  "machines.empty": "Vacío",
+  "machines.processing": "Procesando",
+  "machines.finished": "Terminado",
 
   // tillable
   // TODO
-  "tillable.name": "Tillable",
-  "tillable.tillable": "Tillable",
-  "tillable.occupied": "Occupied",
-  "tillable.not-tillable": "Not Tillable"
+  "tillable.name": "Arabilidad",
+  "tillable.tillable": "Se Puede Arar",
+  "tillable.occupied": "Ocupado",
+  "tillable.not-tillable": "No Arable"
 }
